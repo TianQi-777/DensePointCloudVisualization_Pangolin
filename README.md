@@ -1,8 +1,9 @@
 # DensePointCloudVisualization_Pangolin
-This demo is a simple 3D reconstruction of the room with an RGB-D camera.
+This demo is a simple 3D reconstruction of the room with an RGB-D camera.I also provide KITTI's communication interface.
 
 ## Additional Prerequisites for this project  
 Besides,to build this project, you need the followings:  
+
 **Pangolin**  
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and interface. 
 Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
@@ -21,8 +22,8 @@ We use [TUM RGBD Dataset](https://vision.in.tum.de/data/datasets/rgbd-dataset/do
 We use the some functionalities of C++11.
 
 ## Build and Run
-1. Modify some paths
-   For examples:
+1. Modify some paths  
+   For examples:  
    string strAssociationFilename = "XXX/rgbd_dataset_freiburg1_desk2/associate.txt";  
    string img_path = "XXX/rgbd_dataset_freiburg1_desk2/";  
    string txt_file_TUM = "XXX/CameraTrajectory.txt";  
