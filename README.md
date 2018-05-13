@@ -27,12 +27,14 @@ Use the some functionalities of C++11.
    string strAssociationFilename = "XXX/rgbd_dataset_freiburg1_desk2/associate.txt";  
    string img_path = "XXX/rgbd_dataset_freiburg1_desk2/";  
    string txt_file_TUM = "XXX/CameraTrajectory.txt";  
-2. cd XX/XX(include Pangolin_test.cpp ,CameraTrajectory.txt ,associate.txt and CMakeLists.txt)  
+2. ```
+   cd XX/XX(include Pangolin_test.cpp ,CameraTrajectory.txt ,associate.txt and CMakeLists.txt)  
    mkdir build  
    cd build  
    cmake ..  
    make -j2  
    ./Pangolin_test
+   ```
    
 ## Result
 **Pangolin GUI:**
