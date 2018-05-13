@@ -37,5 +37,5 @@ We use the some functionalities of C++11.
 **Pangolin GUI:**
 <div align=center>  
   
-![](https://github.com/TianQi-777/TrackAlignmentWith_ICP/blob/master/images/Alignment.png)
+![](https://github.com/TianQi-777/DensePointCloudVisualization_Pangolin/blob/master/Images/1.png)
 </div>.
